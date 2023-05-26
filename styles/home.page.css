@@ -1,0 +1,16 @@
+.home {
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    /* background: red; */
+}
+
+
+
+@media (max-width: 800px) {
+    .sidebar {
+      display: none;
+    }
+  }
+  

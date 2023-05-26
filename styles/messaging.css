@@ -1,0 +1,75 @@
+.messaging {
+  flex: 1;
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+}
+
+.messaging main {
+  flex: 1;
+  /* background: red; */
+  padding-top: 2.3em;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.messaging main .avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.messaging main .username {
+  font-size: 1.15em;
+  font-weight: 400;
+  margin-top: 0.5em;
+}
+
+.messaging main .search {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* box-shadow: 0 -0.1px 1px grey; */
+  gap: .5em;
+  padding: 0 .5em .7em;
+  /* background: red; */
+}
+.messaging main .search .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.messaging main .search .item svg {
+  height: 34px;
+  width: 34px;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--primary);
+}
+.messaging main .search .item svg:hover {
+    background: var(--light);
+}
+
+.messaging main .search form {
+  flex: 1;
+  height: 100%;
+  /* background: red; */
+  display: flex;
+}
+
+.messaging main .search form input {
+  flex: 1;
+  font-size: 1em;
+  padding: .6em 1em; /* y - .5em */
+  border: none;
+  outline: none;
+  border-radius: 99px;
+  background: var(--light);
+}

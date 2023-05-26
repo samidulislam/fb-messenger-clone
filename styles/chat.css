@@ -1,0 +1,26 @@
+.chat {
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.5em;
+  transition: all .3s ease;
+}
+
+.chat .info {
+}
+.chat .info .username {
+  font-size: 1em;
+  font-weight: 400;
+}
+.chat .info p {
+  font-size: 0.8em;
+  font-weight: 300;
+  margin-top: .25em;
+}
+
+.chat:hover, .active {
+    background: var(--light);
+}
